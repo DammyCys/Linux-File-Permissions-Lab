@@ -27,7 +27,7 @@ sudo chmod 1770 /opt/tech_file
 ```
 Running `ls -ld /opt/tech_file` confirmed the permissions state as `drwxrwx--t`. The `t` at the end verifies that the Sticky Bit is active.
 
-![Terminal showing Sticky Bit Verification](screenshot(6)_065426.png)
+![Terminal showing Sticky Bit Verification](Screenshot(6)_065426.png)
 
 
 ### 4. Multi-User Verification & Testing
@@ -39,7 +39,7 @@ ls -l
 ```
 * **Output:** `-rw-r--r-- 1 dammycys dammycys 0 Nov 1 09:52 file_logs.txt`
 
-![Terminal showing Multi-User File Creation Test](screenshot(7)_065432.png)
+![Terminal showing Multi-User File Creation Test](Screenshot(7)_065432.png)
 
 
 ## Practical Troubleshooting Lessons Learned
